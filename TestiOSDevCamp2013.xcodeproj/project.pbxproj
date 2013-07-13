@@ -20,6 +20,7 @@
 		370B84171791C8830012E8F2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B84151791C8830012E8F2 /* MainStoryboard_iPad.storyboard */; };
 		370B841A1791C8830012E8F2 /* DevCampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B84191791C8830012E8F2 /* DevCampViewController.m */; };
 		68357E351791CCEA00898A92 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68357E341791CCEA00898A92 /* TestViewController.m */; };
+		68357E3E1791D41B00898A92 /* DevCamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 68357E3D1791D41B00898A92 /* DevCamp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		370B84191791C8830012E8F2 /* DevCampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevCampViewController.m; sourceTree = "<group>"; };
 		68357E331791CCEA00898A92 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		68357E341791CCEA00898A92 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		68357E3C1791D41B00898A92 /* DevCamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevCamp.h; sourceTree = "<group>"; };
+		68357E3D1791D41B00898A92 /* DevCamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevCamp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				68357E331791CCEA00898A92 /* TestViewController.h */,
+				68357E3C1791D41B00898A92 /* DevCamp.h */,
+				68357E3D1791D41B00898A92 /* DevCamp.m */,
 				68357E341791CCEA00898A92 /* TestViewController.m */,
 				370B84001791C8830012E8F2 /* TestiOSDevCamp2013 */,
 				370B83F91791C8830012E8F2 /* Frameworks */,
@@ -186,6 +191,7 @@
 				370B840B1791C8830012E8F2 /* DevCampAppDelegate.m in Sources */,
 				370B841A1791C8830012E8F2 /* DevCampViewController.m in Sources */,
 				68357E351791CCEA00898A92 /* TestViewController.m in Sources */,
+				68357E3E1791D41B00898A92 /* DevCamp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
