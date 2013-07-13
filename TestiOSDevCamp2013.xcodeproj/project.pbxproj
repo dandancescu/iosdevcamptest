@@ -19,6 +19,7 @@
 		370B84141791C8830012E8F2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B84121791C8830012E8F2 /* MainStoryboard_iPhone.storyboard */; };
 		370B84171791C8830012E8F2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B84151791C8830012E8F2 /* MainStoryboard_iPad.storyboard */; };
 		370B841A1791C8830012E8F2 /* DevCampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B84191791C8830012E8F2 /* DevCampViewController.m */; };
+		68357E351791CCEA00898A92 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68357E341791CCEA00898A92 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		370B84161791C8830012E8F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		370B84181791C8830012E8F2 /* DevCampViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevCampViewController.h; sourceTree = "<group>"; };
 		370B84191791C8830012E8F2 /* DevCampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevCampViewController.m; sourceTree = "<group>"; };
+		68357E331791CCEA00898A92 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		68357E341791CCEA00898A92 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		370B83EE1791C8830012E8F2 = {
 			isa = PBXGroup;
 			children = (
+				68357E331791CCEA00898A92 /* TestViewController.h */,
+				68357E341791CCEA00898A92 /* TestViewController.m */,
 				370B84001791C8830012E8F2 /* TestiOSDevCamp2013 */,
 				370B83F91791C8830012E8F2 /* Frameworks */,
 				370B83F81791C8830012E8F2 /* Products */,
@@ -180,6 +185,7 @@
 				370B84071791C8830012E8F2 /* main.m in Sources */,
 				370B840B1791C8830012E8F2 /* DevCampAppDelegate.m in Sources */,
 				370B841A1791C8830012E8F2 /* DevCampViewController.m in Sources */,
+				68357E351791CCEA00898A92 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				370B841F1791C8830012E8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
