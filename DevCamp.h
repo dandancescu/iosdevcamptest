@@ -10,4 +10,6 @@
 
 @interface DevCamp : CIColor
 
+@property (strong, nonatomic) UIView *view;
+
 @end
